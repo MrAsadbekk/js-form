@@ -1,0 +1,121 @@
+body {
+  background-color: yellowgreen;
+}
+
+.container {
+  max-width: 1440px;
+  padding: 0 80px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 100px;
+}
+.box {
+  padding-top: 200px;
+  display: flex;
+  flex-direction: column;
+}
+.form {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.money {
+  width: 300px;
+  margin: 0;
+  padding: 0;
+  padding: 10px 10px;
+  border: 1px solid #006aff;
+  border-radius: 5px;
+  outline: none;
+  background-color: white;
+}
+.sel {
+  margin: 0;
+  padding: 0;
+  padding: 10px 20px;
+  outline: none;
+  background-color: white;
+  border-radius: 5px;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.option {
+  padding: 5px;
+}
+
+.btn {
+  padding: 20px;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.text {
+  display: block;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  font-size: 40px;
+  border-bottom: 3px solid blue;
+}
+
+.box-one {
+  margin: 0;
+  padding: 0;
+  padding-top: 200px;
+}
+
+.box__title {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.box__text {
+  text-align: center;
+}
+
+.box__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.box__weikday {
+  width: 300px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: none;
+}
+
+.box__btn {
+  display: block;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #006aff;
+  color: white;
+}
+
+.add__text {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 40px;
+}
